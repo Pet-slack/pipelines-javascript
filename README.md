@@ -1,4 +1,5 @@
 # Sample NodeJS application for Azure Pipelines docs
+[![Build Status](https://dev.azure.com/petslack/JS-Proj/_apis/build/status/Pet-slack.pipelines-javascript?branchName=master)](https://dev.azure.com/petslack/JS-Proj/_build/latest?definitionId=31&branchName=master)
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
 For more information on building JavaScript or NodeJS applications, see [JavaScript](https://docs.microsoft.com/azure/devops/pipelines/languages/javascript).
