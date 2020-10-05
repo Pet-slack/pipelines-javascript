@@ -12,10 +12,10 @@ variables:
   azureSubscription: '33d2b27e-f690-40a0-ab27-85a8c6b2f0a0'
 
   # Web app name
-  webAppName: 'node-webapp-001'
+  webAppName: 'node-webapp0002'
 
   # Environment name
-  environmentName: 'node-webapp-001'
+  environmentName: 'nodewebapp0001-rg'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -68,7 +68,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: node-webapp-001'
+            displayName: 'Azure Web App Deploy: node-webapp0002'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
